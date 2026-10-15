@@ -15,7 +15,7 @@ const locations = [
   },
   {
     name: 'South Delhi',
-    description: 'Luxury villa and high-end residential developments',
+    description: 'Luxury Independent Flor ',
     id: 'south-delhi',
   },
   {
