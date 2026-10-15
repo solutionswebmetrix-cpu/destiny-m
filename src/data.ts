@@ -16,10 +16,15 @@ import projectImageFour from './assets/Project/projcet 5.png'
 import projectImageFive from './assets/Project/Project.png'
 import krecentHomesImage from './assets/Project/Krecent Homes.png'
 import kasaIslesImage from './assets/Project/Kasa Isles.png'
-import kosmosImage from './assets/Project/Kosmos.png'
+import kosmosImage from './assets/Project/Kosmos Sector 134 Residential Complex (1).png'
 import kbaImage from './assets/Project/KBA — Kensington Boulevard Apartments.png'
 import klassicImage from './assets/Project/Klassic.png'
 import klassicDuplexImage from './assets/Project/Klassic Duplex.png'
+import kpaImage from './assets/Project/Jaypee Kensington Park Apartments Banner.png'
+import kalypsoCourtImage from './assets/Project/Kalypso Court.png'
+import imperialCourtImage from './assets/Project/Imperial Court.png'
+import pavilionCourtImage from './assets/Project/Pavilion Court.png'
+import pavilionHeightsImage from './assets/Project/Pavilion Heights.png'
 import propertyPlots from './assets/Properties/plots.png'
 import propertyVillas from './assets/Properties/Luxury Villas.png'
 import propertyApartments from './assets/Properties/apartments.png'
@@ -796,7 +801,7 @@ export const projects: Project[] = [
     type: 'Residential',
     category: 'Ready to Move',
     location: 'Noida sector-133',
-    image: projectImageTwo,
+    image: kpaImage,
     short: 'Ready-to-move apartment inventory with family-sized layouts.',
     description: 'Ready to move residential options in Kensington Park Apartments.',
     overview: 'KPA — Kensington Park Apartments offers ready-to-move apartment sizes and pricing for family homes and investment buyers.',
@@ -808,7 +813,7 @@ export const projects: Project[] = [
     ],
     status: 'Ready to Move',
     brochure: 'Kensington park apartments.pdf',
-    gallery: [projectImageTwo],
+    gallery: [kpaImage],
     inventory: [
       { configuration: '2 BHK', size: '1170 ft²', price: '₹95 Lakhs' },
       { configuration: '3 BHK', size: '1560 ft²', price: '₹1.35 Cr' },
@@ -821,7 +826,7 @@ export const projects: Project[] = [
     type: 'Residential',
     category: 'Ready to Move',
     location: 'Noida sector-128',
-    image: projectImageThree,
+    image: kalypsoCourtImage,
     short: 'Ready-to-move project with 2 BHK, 3 BHK and 4 BHK options.',
     description: '',
     overview: '',
@@ -829,7 +834,7 @@ export const projects: Project[] = [
     specifications: [],
     status: 'Ready to Move',
     brochure: '',
-    gallery: [projectImageThree],
+    gallery: [kalypsoCourtImage],
     hasFullDetails: false,
     inventory: [
       { configuration: '2 BHK', size: '1820 sq ft', price: 'Price details available on request' },
@@ -843,7 +848,7 @@ export const projects: Project[] = [
     type: 'Residential',
     category: 'Ready to Move',
     location: 'Noida sector-128',
-    image: projectImageFour,
+    image: imperialCourtImage,
     short: 'Ready-to-move project with 3 BHK and 4 BHK options.',
     description: '',
     overview: '',
@@ -851,7 +856,7 @@ export const projects: Project[] = [
     specifications: [],
     status: 'Ready to Move',
     brochure: 'imperial court.pdf',
-    gallery: [projectImageFour],
+    gallery: [imperialCourtImage],
     hasFullDetails: false,
     inventory: [
       { configuration: '3 BHK', size: '2800 sq ft', price: 'Price details available on request' },
@@ -864,7 +869,7 @@ export const projects: Project[] = [
     type: 'Residential',
     category: 'Ready to Move',
     location: 'Noida sector-128',
-    image: projectImageOne,
+    image: pavilionCourtImage,
     short: 'Ready-to-move project with 1 BHK, 2 BHK and 3 BHK options.',
     description: '',
     overview: '',
@@ -872,7 +877,7 @@ export const projects: Project[] = [
     specifications: [],
     status: 'Ready to Move',
     brochure: 'pavilion court.pdf',
-    gallery: [projectImageOne],
+    gallery: [pavilionCourtImage],
     hasFullDetails: false,
     inventory: [
       { configuration: '1 BHK', size: '936 sq ft', price: 'Price details available on request' },
@@ -886,7 +891,7 @@ export const projects: Project[] = [
     type: 'Residential',
     category: 'Ready to Move',
     location: 'Noida sector-128',
-    image: projectImageTwo,
+    image: pavilionHeightsImage,
     short: 'Ready-to-move project with 2 BHK, 3 BHK and 4 BHK options.',
     description: '',
     overview: '',
@@ -894,7 +899,7 @@ export const projects: Project[] = [
     specifications: [],
     status: 'Ready to Move',
     brochure: 'pavilion heights.pdf',
-    gallery: [projectImageTwo],
+    gallery: [pavilionHeightsImage],
     hasFullDetails: false,
     inventory: [
       { configuration: '2 BHK', size: '1400 sq ft', price: 'Price details available on request' },
