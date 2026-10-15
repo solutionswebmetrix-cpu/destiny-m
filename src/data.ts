@@ -28,6 +28,13 @@ import pavilionHeightsImage from './assets/Project/Pavilion Heights.png'
 import propertyPlots from './assets/Properties/plots.png'
 import propertyVillas from './assets/Properties/Luxury Villas.png'
 import propertyApartments from './assets/Properties/apartments.png'
+import golfFacingPlotsImage from './assets/Properties/Golf Facing Plots.jpeg'
+import greenfieldVillaPlotsImage from './assets/Properties/Greenfield Villa Plots.png'
+import kp1Kp2PlotsImage from './assets/Properties/KP1 & KP2 Plots.png'
+import kingswoodOrientalImage from './assets/Properties/Kingswood Oriental.png'
+import palmGroveVillasImage from './assets/Properties/Palm Grove Villas.png'
+import sereneLuxuryVillasImage from './assets/Properties/Serene Luxury Villas.png'
+import townhomeVillaImage from './assets/Properties/Townhome Villa.png'
 
 import teamDirector from './assets/id card/Director.jpeg'
 import teamAman from './assets/id card/Aman.jpeg'
@@ -286,7 +293,7 @@ export const properties: Property[] = [
     area: '3,200 - 4,500 sq.ft',
     price: '₹2.4 Cr onwards',
     beds: 4, baths: 5,
-    image: propertyVillas,
+    image: sereneLuxuryVillasImage,
     tag: 'Best Seller',
     description: 'Gated villa community with private gardens and clubhouse access.',
     overview: 'Serene Luxury Villas is an exclusive gated community of 48 premium villas set amidst landscaped gardens. Each home features double-height living spaces, private terraces and smart-home integration, designed for families who value space, privacy and timeless architecture.',
@@ -299,7 +306,7 @@ export const properties: Property[] = [
       { label: 'RERA', value: 'PRM/KA/RERA/1251/446/PR-DB-001' },
     ],
     brochure: brochureFiles[0],
-    gallery: [propertyVillas],
+    gallery: [sereneLuxuryVillasImage],
     status: 'Ready to Move',
   },
   {
@@ -356,7 +363,7 @@ export const properties: Property[] = [
     location: 'Greater Noida',
     area: '1,200 - 2,400 sq.ft',
     price: '₹48 L onwards',
-    image: propertyPlots,
+    image: greenfieldVillaPlotsImage,
     description: 'DTCP-approved residential plots in a planned township.',
     overview: 'Greenfield Villa Plots is a 28-acre plotted development with wide internal roads, underground utilities and a central park. Build your dream villa your way, with ready infrastructure and clear titles.',
     amenities: ['Central Park', 'Wide Roads', 'Underground Utilities', 'Gated Security', 'Street Lighting', 'Avenue Plantation'],
@@ -368,7 +375,7 @@ export const properties: Property[] = [
       { label: 'Possession', value: 'Ready to Register' },
     ],
     brochure: brochureFiles[3],
-    gallery: [propertyPlots],
+    gallery: [greenfieldVillaPlotsImage],
     status: 'Ready to Move',
   },
   {
@@ -403,7 +410,7 @@ export const properties: Property[] = [
     area: '2,800 - 3,600 sq.ft',
     price: '₹2.1 Cr onwards',
     beds: 4, baths: 5,
-    image: propertyVillas,
+    image: palmGroveVillasImage,
     description: 'Resort-style villas near the international airport.',
     overview: 'Palm Grove Villas brings resort living home. Each villa opens onto a private palm-lined garden, with a clubhouse, spa and infinity pool shared by a close-knit community of 36 families.',
     amenities: ['Private Garden', 'Spa', 'Infinity Pool', 'Clubhouse', 'Tennis Court', 'Concierge'],
@@ -415,7 +422,7 @@ export const properties: Property[] = [
       { label: 'RERA', value: 'PRM/KA/RERA/1251/446/PR-DB-006' },
     ],
     brochure: brochureFiles[5],
-    gallery: [propertyVillas],
+    gallery: [palmGroveVillasImage],
     status: 'Ready to Move',
   },
   {
@@ -425,7 +432,7 @@ export const properties: Property[] = [
     location: 'Sector 128, Noida',
     area: '250–538 Gaj',
     price: '₹4.5 Lakh – ₹5.5 Lakh / Gaj',
-    image: propertyPlots,
+    image: golfFacingPlotsImage,
     tag: 'Luxury Plots',
     description: 'Premium golf-facing residential plots in an aspirational Noida locale.',
     overview: 'Sector 128 Golf Facing Plots offer an elevated investment and custom-home opportunity in one of Noida’s most premium corridors. Designed for serene living, these plots provide wide streets, landscaped surroundings and excellent connectivity to the city’s key commercial hubs.',
@@ -438,7 +445,7 @@ export const properties: Property[] = [
       { label: 'Status', value: 'New Launch' },
     ],
     brochure: brochureFiles[0],
-    gallery: [propertyPlots],
+    gallery: [golfFacingPlotsImage],
     status: 'New Launch',
   },
   {
@@ -448,7 +455,7 @@ export const properties: Property[] = [
     location: 'Sector 131, Noida',
     area: '153–300 Gaj',
     price: '₹2.30 Lakh – ₹2.50 Lakh / Gaj',
-    image: propertyPlots,
+    image: kp1Kp2PlotsImage,
     tag: 'Luxury Plots',
     description: 'Strategic plots in Sector 131 with scalable investment potential and ready appeal.',
     overview: 'Sector 131 KP1 & KP2 Plots are positioned for buyers seeking well-located residential plots in Noida with excellent long-term appreciation potential. The project offers an attractive mix of size options, curated planning and a strong lifestyle ecosystem.',
@@ -461,7 +468,7 @@ export const properties: Property[] = [
       { label: 'Status', value: 'New Launch' },
     ],
     brochure: brochureFiles[1],
-    gallery: [propertyPlots],
+    gallery: [kp1Kp2PlotsImage],
     status: 'New Launch',
   },
   {
@@ -471,7 +478,7 @@ export const properties: Property[] = [
     location: 'Noida',
     area: '4,200 - 5,400 sq.ft',
     price: '₹7 Cr – ₹12 Cr',
-    image: propertyVillas,
+    image: kingswoodOrientalImage,
     tag: 'Luxury Villas',
     description: 'Premium luxury villas with grand architecture, refined interiors and elite family living.',
     overview: 'Kingswood Oriental brings premium villa living to Noida with expansive layouts, private open terraces and elegant contemporary design language. Crafted for discerning families, it blends comfort, sophistication and enduring value in one distinguished address.',
@@ -484,7 +491,7 @@ export const properties: Property[] = [
       { label: 'Status', value: 'New Launch' },
     ],
     brochure: brochureFiles[2],
-    gallery: [propertyVillas],
+    gallery: [kingswoodOrientalImage],
     status: 'New Launch',
   },
   {
@@ -494,7 +501,7 @@ export const properties: Property[] = [
     location: 'Noida',
     area: '4,200–4,500 sq.ft • 4,800–5,600 sq.ft',
     price: 'Price on Request',
-    image: propertyVillas,
+    image: townhomeVillaImage,
     tag: 'Luxury Villas',
     description: 'Premium townhome villas designed for flexibility, space and a refined contemporary lifestyle.',
     overview: 'Townhome Villa offers a sophisticated range of 4 BHK and 5 BHK residences tailored for modern family living. Each home is planned to create a seamless blend of spacious interiors, private outdoor areas and elevated comfort without compromising on elegance.',
@@ -507,7 +514,7 @@ export const properties: Property[] = [
       { label: 'Status', value: 'New Launch' },
     ],
     brochure: brochureFiles[3],
-    gallery: [propertyVillas],
+    gallery: [townhomeVillaImage],
     status: 'New Launch',
   },
 ]
